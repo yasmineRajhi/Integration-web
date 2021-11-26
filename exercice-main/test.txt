@@ -1,0 +1,72 @@
+import './App.css';
+import { useState } from 'react'
+function App() {
+
+  let [res, setRes] = useState(0)
+
+  let [clicked, setClicked] = useState(true)
+  let list = [
+    {
+      text: "Pratiquer du sport",
+      checked: true,
+      id: 1
+    },
+    {
+      text: "Ecouter de la musique",
+      checked: false,
+      id: 2
+    },
+    {
+      text: "Se balader en plein nature",
+      checked: false,
+      id: 3
+    },
+    {
+      text: "Lire un roman",
+      checked: true,
+      id: 4
+    }]
+
+  let click = (data) => {
+    if (data.checked) {
+      data.checked = false
+    } else {
+      data.checked = true
+    }
+
+    setClicked(true)
+
+  }
+  return (
+    <div className="App">
+
+      <div>{res}</div>
+      <button onClick={() => { setRes = res + 1 }}>Cliquer ici</button>
+
+      <div>
+        <ul style={{ textDecoration: 'none' }}>
+
+        </ul>
+
+        {list.map((data, index) => {
+          if ({ clicked }) {
+            return (
+
+              <div key={index}>
+                <input type="checkbox" checked={data.checked ? true : false} onChange={() => { click(data) }} id={data.id}></input>
+                <label htmlFor={data.id}>{data.text}</label>
+
+              </div>
+            )
+
+          }
+
+
+
+        })}
+      </div>
+    </div>
+  );
+}
+
+export default App;

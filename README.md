@@ -3,10 +3,14 @@ WEB
 
 https://youtube-project.tk/
 
-npm install
-npm audit fix
-npm update
-npm start
+    npm install
+
+    npm audit fix
+
+    npm update
+
+    npm start
+
 
 ====================================
 

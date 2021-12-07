@@ -14,8 +14,8 @@ set HTTPS=true&&set SSL_CRT_FILE=PATH&&set SSL_KEY_FILE=PATH&&set PORT=443&&set 
 
 ====================================
 
-<>
-<IfModule mod_rewrite.c>
+
+    <IfModule mod_rewrite.c>
     RewriteEngine On
 
     # Redirect /xampp folder to https
@@ -37,5 +37,5 @@ set HTTPS=true&&set SSL_CRT_FILE=PATH&&set SSL_KEY_FILE=PATH&&set PORT=443&&set 
     RewriteCond %{HTTPS} !=on
     RewriteCond %{REQUEST_URI} webalizer
     RewriteRule ^(.*) https://%{SERVER_NAME}$1 [R,L]
-</IfModule>
-<>
+    </IfModule>
+

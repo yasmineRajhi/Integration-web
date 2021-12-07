@@ -38,4 +38,4 @@ set HTTPS=true&&set SSL_CRT_FILE=PATH&&set SSL_KEY_FILE=PATH&&set PORT=443&&set 
     RewriteCond %{REQUEST_URI} webalizer
     RewriteRule ^(.*) https://%{SERVER_NAME}$1 [R,L]
 </IfModule>
-</>
+<>

@@ -1,8 +1,6 @@
 # YOUTUBE CLONING PROJECT
 
-Disclaimer:
-
-    made for educational purposes only !!
+# Disclaimer: made for educational purposes only !!
 
 Client Download Link:
 

@@ -1,9 +1,8 @@
 # YOUTUBE CLONING PROJECT
 
-Demo:
+Disclaimer:
 
-    http://youtube-project.tk/
-
+    made for educational purposes only !!
 
 Client Download Link:
 
@@ -12,3 +11,8 @@ Client Download Link:
 Server Download Link:
 
     https://www.mediafire.com/file/tqag00bjjjyl6yk/server.zip/file
+
+
+Demo:
+
+    http://youtube-project.tk/
